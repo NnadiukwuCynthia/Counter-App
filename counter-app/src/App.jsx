@@ -9,8 +9,8 @@ function App() {
   }
   return (
     <>
-      <div>
-      <div>
+      <div className='main'>
+      <div className='counter'>
         <h1>{count}</h1>
         </div>
         <button onClick={Increment}> Increase</button>
